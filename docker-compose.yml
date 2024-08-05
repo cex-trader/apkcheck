@@ -1,0 +1,6 @@
+services:
+  apkleaks:
+    image: dwisiswant0/apkleaks:latest
+    volumes:
+      - /workdir/apkleaks/apk:/data
+    command: ["-f", "/data/xxxx.apk"]
